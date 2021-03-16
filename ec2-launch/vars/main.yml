@@ -1,0 +1,15 @@
+---
+# vars file for ec2-launch
+
+image_id: "ami-0eeb03e72075b9bcc"
+instance_type: "t2.micro"
+region: "ap-south-1"
+key: "arth"
+vpc_subnet_id: "subnet-f7d4c19f"
+security_group_id: "sg-2904234e"
+aws_access_key: "enter access key"
+aws_secret_key: "enter secret key"
+OS_Names:
+        - "K8S_Master"
+        - "K8S_Slave1"
+        - "K8S_Slave2"  
